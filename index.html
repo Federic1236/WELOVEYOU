@@ -13,6 +13,7 @@
             flex-direction: column;
             align-items: center;
             padding: 50px;
+            text-align: center;
         }
 
         .image-container img {
@@ -21,8 +22,9 @@
             border: 5px solid white;
         }
 
-        .audio-player {
-            margin-top: 30px;
+        
+        audio {
+            display: none;
         }
     </style>
 </head>
@@ -32,17 +34,13 @@
     <p>i love you we love you..</p>
 
     <div class="image-container">
-        <img src="WhatsApp Image 2026-02-25 at 15.44.34 (1).jpeg" alt="Image 1">
-        <img src="WhatsApp Image 2026-02-25 at 15.44.34.jpeg" alt="Image 2">
+        <img src="WhatsApp Image 2026-02-25 at 15.44.34 (1).jpeg" alt="Immagine1">
+        <img src="WhatsApp Image 2026-02-25 at 15.44.34.jpeg" alt="Immagine2">
     </div>
 
-    <div class="audio-player">
-        <p>heres our lovely choir!:</p>
-        <audio controls autoplay loop>
-            <source src="song.mp3" type="audio/mpeg">
-            dont dont dont leave
-        </audio>
-    </div>
+    <audio autoplay loop>
+        <source src="song.mp3" type="audio/mpeg">
+    </audio>
 
 </body>
 </html>
